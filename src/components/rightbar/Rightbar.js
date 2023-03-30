@@ -80,6 +80,7 @@ function Rightbar() {
       <div className="suggest">
         <div className="suggest-box">
           <h2>Who to follow</h2>
+
           <div className="suggest-profile">
             <img src={me} alt="me" />
             <div className='suggest-name'>
@@ -88,8 +89,31 @@ function Rightbar() {
             </div>
             <button>Follow</button>
           </div>
+
+          <div className="suggest-profile">
+            <img src={me} alt="me" />
+            <div className='suggest-name'>
+              <h4>Mary</h4>
+              <h4 className='handle'>@real_kingbee</h4>
+            </div>
+            <button>Follow</button>
+          </div>
+
+          <div className="suggest-profile">
+            <img src={me} alt="me" />
+            <div className='suggest-name'>
+              <h4>Kingbee</h4>
+              <h4 className='handle'>@real_kingbee</h4>
+            </div>
+            <button>Follow</button>
+          </div>
+
+          <p>Show more</p>
+
         </div>
       </div>
+
+      
 
     </div>
     

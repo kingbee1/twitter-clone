@@ -24,7 +24,7 @@
     border-radius: 100px;
     outline: none;
     background: #6A6F74;
-    color: #ccc;
+    color: #71767C;
   }
   
   
@@ -33,18 +33,13 @@
     border: none;
     outline: none;
     margin-left: -33px;
-    
   }
   
   .search-button img {
     width: 20px;
     height: 20px;
     object-fit: cover;
-    
   }
-
-
-
 
 /* end */
 
@@ -59,8 +54,7 @@
     border: none;
     width: 92%;
     height: 30px;
-    border-radius: 35px;
-    
+    border-radius: 35px;   
 }
 
 
@@ -71,7 +65,7 @@
     border-radius: 15px;
     margin-left: 25px;
     margin-top: 20px;
-    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .trend-box h2{
@@ -106,6 +100,14 @@
 .trend-box p {
     color: #1A8DDB;
     cursor: pointer;
+    padding: 4px 15px;
+}
+
+.trend-box p:hover{
+    background: rgba(29, 161, 242, 0.1);;
+    padding: 4px 15px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 .suggest {
@@ -114,23 +116,32 @@
 
 .suggest-box{
     background: red;
-    height: 220px;
+    height: 350px;
     width: 350px;
     background: #17181C;
     border-radius: 15px;
     margin-left: 25px;
     margin-top: 20px;
-    padding-left: 15px;
     padding-top:25px ;
 }
 
 .suggest-box h2{
     font-size: 22px;
     margin-bottom: 25px;
+    cursor: pointer;
+    padding-left: 15px;
 }
 
 .suggest-profile{
+    width: 100%;
     display: flex;
+    padding: 10px 15px;
+
+}
+
+.suggest-profile:hover{
+    background: rgba(29, 161, 242, 0.1);;
+    padding: 10px 15px;
 }
 
 .suggest-profile img {
@@ -154,12 +165,27 @@
 
 .suggest-box button {
     border-radius: 30px;
-    padding: 8px 38px;
+    height: 34px;
+    padding: 6px 30px;
     border: none;
     outline: none;
     text-decoration: none;
     background: white;
     color: #17181C;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.suggest-box p {
+    color: #1A8DDB;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 13px 15px;
+}
+
+.suggest-box p:hover {
+    background: rgba(29, 161, 242, 0.1);;
+    padding: 13px 15px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
