@@ -1,0 +1,165 @@
+.right-container-box{
+    position: sticky;
+    height: 90px;
+    padding: 30px 0;
+    top: 0px;
+}
+
+/* start */
+
+.search-container {
+    margin-left: 20px;
+    width: 355px;
+    height: 60px
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #6A6F74;
+    color: #ccc;
+  }
+  
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+    
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    
+  }
+
+
+
+
+/* end */
+
+.magnify{
+    color: #6A6F74;
+}
+
+.search input{
+    background: #1F2327;
+    color: #ccc;
+    outline: none;
+    border: none;
+    width: 92%;
+    height: 30px;
+    border-radius: 35px;
+    
+}
+
+
+.trend-box {
+    height: 90vh;
+    width: 350px;
+    background: #17181C;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.trend-box h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700; 
+}
+
+.trend-tile {
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+
+.trend-tile:hover{
+    background: rgba(29, 161, 242, 0.1);
+    padding: 15px 15px;
+}
+
+.trend-tile h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6A6F74;
+}
+
+.trend-tile h4 {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 5px 0;
+}
+
+.trend-box p {
+    color: #1A8DDB;
+    cursor: pointer;
+}
+
+.suggest {
+    width: 100%;
+}
+
+.suggest-box{
+    background: red;
+    height: 220px;
+    width: 350px;
+    background: #17181C;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top:25px ;
+}
+
+.suggest-box h2{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.suggest-profile{
+    display: flex;
+}
+
+.suggest-profile img {
+    border-radius: 50%;
+    width: 45px;
+	height: 45px;
+    margin: 0px 10px 10px 0px;
+}
+
+.suggest-name {
+    margin-right: 60px;
+}
+
+.suggest-name h4{
+   font-size: 14px;
+   font-weight: 700;
+}
+.suggest-name .handle {
+    font-weight: 300;
+}
+
+.suggest-box button {
+    border-radius: 30px;
+    padding: 8px 38px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background: white;
+    color: #17181C;
+    font-weight: 700;
+    font-size: 14px;
+}

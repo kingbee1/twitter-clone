@@ -1,0 +1,196 @@
+.middle-container {
+    border-left: 1px solid #303336;
+    border-right: 1px solid #303336;
+    max-width: 680px;
+    height: fit-content;
+}
+.home {
+   padding: 10px 20px;  
+}
+
+.home h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.middle-container h5 {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.tweet-post {
+    margin-top: 3px;
+    border-top: 1px solid #2F3336;
+    border-bottom: 1px solid #2F3336;
+}
+
+.form-up {
+    display: flex;
+    width: 100%;
+}
+
+.form-up img {
+    border-radius: 50%;
+    width: 65px;
+	height: 65px;
+    margin: 10px;
+    margin-right: 43px;
+}
+
+.tweet-form {
+    width: 100%;
+}
+
+.tweet-form textarea {
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: white;    
+    margin: 30px 0;
+    text-align: start;
+    width: 95%;
+    max-height: 80px;
+    height: fit-content;
+    background: inherit;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.middle-show p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 0;
+    color: #1D9BF0;
+    border-bottom: 1px solid #2F3336;
+}
+
+.form-down {
+    color: #1D9BF0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.form-down .icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 59px;
+    align-items: center;
+}
+
+.form-down .btn {
+    background: #1D9BF0;
+    color: #ccc;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding: 8px 18px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tweet{
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid #2F3336;
+}
+
+.user-profile img{
+    border-radius: 50%;
+    width: 65px;
+	height: 65px;
+    margin: 0px 43px 10px 10px;
+}
+.line{
+    background: #303336;
+    height: 85%;
+    width: 2px;
+    margin: 0px 40px;
+ }
+.user-tweet {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.user-tweet h4{
+    color: #E7E9EA;
+    font-weight: 900;
+}
+
+.user-tweet h6 {
+    color: #71767C;
+    align-self: center;
+    font-size: 14px;
+}
+
+
+.user-tweet-box img{
+    height: 450px;
+    width: 430px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.engage {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.engaged:hover{
+    color: #1D9BF0;
+}
+
+.engage :nth-child(2):hover{
+    color: #3D905F;
+}
+
+.engage :nth-child(3):hover{
+    color: #EC1980;
+}
+
+.engage :nth-child(4):hover{
+    color: #1D9BF0;
+}
+
+.engage :nth-child(5):hover{
+    color: #1D9BF0;
+}
+
+.engaged{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.second-user {
+    display: flex;
+    gap: 1rem;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.second-user p{
+    display: flex;
+    align-items: center;
+    color: #1A8DDB;
+    cursor: pointer;
+}
+
+.second-user img{
+    border-radius: 50%;
+    width: 35px;
+	height: 35px;
+    margin: 0px 30px 10px 0px;
+}
+
+.tweet-2 {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2F3336;
+}
