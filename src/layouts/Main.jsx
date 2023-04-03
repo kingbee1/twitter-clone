@@ -6,10 +6,10 @@ export default function Main({children}) {
   return (
     <div className='main-container flex'>
 
-    <Sidebar />
-    {children}
-    <Rightbar />
+      <Sidebar />
+      {children}
+      <Rightbar />
 
-  </div>
+    </div>
   )
 }
