@@ -38,6 +38,12 @@
     transition: 4ms;
 }
 
+.nav-links li .navlink {
+    font-size: 18px;
+}
+
+
+
 .twii {
     font-size: 24px;
     margin-right: 18px;

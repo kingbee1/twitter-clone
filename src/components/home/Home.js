@@ -32,10 +32,6 @@ function Home() {
 
               <div className='tweet-form'>
                 <textarea class="input" placeholder="What's happening?" />
-                {/* <div className="every-reply">
-                  <FontAwesomeIcon icon={faGlobe} />
-                  <p>Everyone can reply</p>
-                </div> */}
 
               </div>
 

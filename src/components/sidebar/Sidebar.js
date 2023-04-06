@@ -1,4 +1,4 @@
-import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faHouseUser, faHashtag, faBell, faEnvelope, faBookmark, faUser, faCircleDot } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,8 @@ function Sidebar() {
           <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
           <li> <a href="#"><FontAwesomeIcon icon={faHouseUser } className="twii" /></a> Home</li>
           <li> <a href=""><FontAwesomeIcon icon={faHashtag} className="twii"/> </a> Explore</li>
-          <li> <a href=""><FontAwesomeIcon icon={faBell} className="twii"/></a> Notifications</li> 
+          {/* <li> <a href=""><FontAwesomeIcon icon={faBell} className="twii"/></a> Notifications</li>  */}
+          <li ><NavLink className='navlink' to="/notification"><FontAwesomeIcon icon={faBell} className="twii"/>Notification</NavLink></li>
           <li> <a href=""><FontAwesomeIcon icon={faEnvelope} className="twii"/></a> Messages</li>
           <li> <a href=""><FontAwesomeIcon icon={faBookmark} className="twii"/></a> Bookmarks</li>
           <li> <a href=""><FontAwesomeIcon icon={faBookmark} className="twii"/></a> Lists</li>
@@ -41,6 +42,9 @@ function Sidebar() {
       </div>
 
     </div>
+    <main>
+      {/* <Outlet /> */}
+    </main>
   </div>
   )
 }

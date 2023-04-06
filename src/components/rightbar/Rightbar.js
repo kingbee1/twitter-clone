@@ -17,7 +17,7 @@ function Rightbar() {
         <form action="/" method="GET" class="form">
           <input type="search" placeholder="Search" class="search-field" />
           <button type="submit" class="search-button">
-            <img src={search} />
+            <img src={search} alt="search" />
           </button>
         </form>
       </div>
