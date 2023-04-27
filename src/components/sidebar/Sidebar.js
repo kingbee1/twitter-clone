@@ -14,12 +14,12 @@ function Sidebar() {
       <div className="nav-links">
         <ul className='nav-icons'>
           <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
-          <li> <a href="#"><FontAwesomeIcon icon={faHouseUser } className="twii" /></a> Home</li>
+
+          <li ><NavLink className='navlink' to="/"><FontAwesomeIcon icon={faHouseUser} className="twii"/>Home</NavLink></li>
           <li> <a href=""><FontAwesomeIcon icon={faHashtag} className="twii"/> </a> Explore</li>
-          {/* <li> <a href=""><FontAwesomeIcon icon={faBell} className="twii"/></a> Notifications</li>  */}
           <li ><NavLink className='navlink' to="/notification"><FontAwesomeIcon icon={faBell} className="twii"/>Notification</NavLink></li>
           <li> <a href=""><FontAwesomeIcon icon={faEnvelope} className="twii"/></a> Messages</li>
-          <li> <a href=""><FontAwesomeIcon icon={faBookmark} className="twii"/></a> Bookmarks</li>
+          <li ><NavLink className='navlink' to="/bookmark"><FontAwesomeIcon icon={faBookmark} className="twii"/>Bookmarks</NavLink></li>
           <li> <a href=""><FontAwesomeIcon icon={faBookmark} className="twii"/></a> Lists</li>
           <li> <a href=""><FontAwesomeIcon icon={faUser} className="twii"/></a> Profile</li>
           <li> <a href=""><FontAwesomeIcon icon={faCircleDot} className="twii"/></a> More</li>
