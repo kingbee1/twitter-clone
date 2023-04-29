@@ -2,6 +2,7 @@
     border-left: 1px solid #303336;
     border-right: 1px solid #303336;
     max-width: 680px;
+    min-width: 500px;
     height: fit-content;
 }
 .notif {
@@ -14,7 +15,7 @@
 }
 
 .notif-tab{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     display: flex;
     justify-content: space-between;
@@ -23,12 +24,16 @@
 
 .notif-tab h5{
     color: #4A4C51;
-    padding: 4px 18px;
+    padding: 18px 58px;
+}
+
+.notif-tab h5:nth-child(1){
+    color: #ccc;
 }
 
 .notif-tab h5:hover{
-    background: green;
-    padding: 4px 18px;
+    background: rgba(29, 161, 242, 0.1);
+    padding: 18px 58px;
 }
 
 .notif-tab h5.active {
@@ -36,8 +41,24 @@
 }
 
 .notif-1 {
-    display: flex;
     border-bottom: 1px solid #303336;
+    min-height: 90px;
+    padding: 1rem 2.2rem;
+}
+
+.notif-1 p {
+    margin-left: 39px;
+}
+
+.notif-box {
+    display: flex;
+}
+
+.notif-icon {
+    margin-top: 12px;
+    margin-right: 4px;
+    font-size: 30px;
+    color: #3C9BF0;
 }
 
 .notif-1 img {
