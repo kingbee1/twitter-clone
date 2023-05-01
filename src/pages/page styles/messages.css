@@ -1,0 +1,16 @@
+.message-container {
+    border-left: 1px solid #303336;
+    border-right: 1px solid #303336;
+    max-width: 680px;
+    min-width: 500px;
+    height: fit-content;
+}
+
+.message-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-heading-icons{
+    display: flex;
+}

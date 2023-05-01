@@ -13,6 +13,7 @@ import Notification from './pages/Notification';
 import Main from './layouts/Main';
 import Sidebar from './components/sidebar/Sidebar';
 import Bookmark from './pages/Bookmark';
+import Messages from './pages/Messages';
 
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
 {
   path: '/bookmark',
   element: <Bookmark />
+},
+{
+  path: '/messages',
+  element: <Messages />
 }
 ]
 
