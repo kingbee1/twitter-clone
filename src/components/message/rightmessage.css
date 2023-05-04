@@ -1,0 +1,39 @@
+.right-cover {
+    border-right: 1px solid #303336;
+}
+.right-container {
+    position: relative;
+    top: 40%;
+    left: 24%;
+    width: 750px;
+}
+
+
+.right-content{
+    width: 60%;
+}
+
+.right-content h1{
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-content h5 {
+    color: #71767C;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 67%;
+}
+
+.right-content button {
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    background: #3C9BF0;
+    padding: 16px 38px;
+    border: none;
+    outline: none;
+    border-radius: 26px;
+}
