@@ -3,10 +3,11 @@
     height: 40px;
     padding: 30px 0;
     top: 0px;
+    min-width: 400px;
 }
 
 .nav-links{
-   
+    min-width: 400px;
 }
 .nav-links li a {
     font-size: 34px;  

@@ -1,11 +1,12 @@
 .right-cover {
     border-right: 1px solid #303336;
 }
-.right-container {
+
+.right-container-message {
     position: relative;
     top: 40%;
-    left: 24%;
-    width: 750px;
+    left: 24%; 
+    width: 650px;
 }
 
 

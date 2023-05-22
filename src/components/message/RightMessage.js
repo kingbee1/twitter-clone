@@ -5,9 +5,9 @@ const RightMessage = () => {
   return (
     <div className='right-cover'>
 
-    <div className='right-container'>
+    <div className='right-container-message'>
       <div className="right-content">
-        <h1>Selecet a message</h1>
+        <h1>Select a message</h1>
         <h5>Choose from your existing conversations, start a new one, or just keep swimming.</h5>
         <button>New message</button>
       </div>
