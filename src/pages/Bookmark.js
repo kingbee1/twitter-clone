@@ -20,8 +20,10 @@ const Bookmark = () => {
           <h5>@real_kingbee</h5>
         </div>
 
-                  {/*----- users tweet ----*/}
-                  <section className='tweet'>
+        
+
+        {/*----- users tweet ----*/}
+        <section className='tweet'>
           <div className='user-profile'>
             <img src={cnn} alt="user-profile" />
             <div className='line'></div>
@@ -38,30 +40,30 @@ const Bookmark = () => {
             <img src={david} alt="david" />
             <div className="engage">
 
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faComment} /> 
-              <p>419</p>
-              </div>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faComment} /> 
+            <p>419</p>
+            </div>
 
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faRetweet} /> 
-              <p>69k</p>
-              </div>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faRetweet} /> 
+            <p>69k</p>
+            </div>
 
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faHeart} />
-              <p>43k</p>
-              </div>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faHeart} />
+            <p>43k</p>
+            </div>
 
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faChartColumn}/>
-              <p>419</p>
-              </div>
-              
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faArrowUpFromBracket} />
-              <p>4519</p>
-              </div>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faChartColumn}/>
+            <p>419</p>
+            </div>
+            
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faArrowUpFromBracket} />
+            <p>4519</p>
+            </div>
             </div>
 
             <div className="second-user">

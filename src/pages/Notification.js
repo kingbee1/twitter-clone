@@ -9,11 +9,8 @@ import { faBell } from '@fortawesome/free-solid-svg-icons'
 
 const Notification = () => {
   return (
-    <Main >
-
+    <Main>
       <div className='notifs-container'>
-        
-
         <div className='notif'>
           <h2>Notifications </h2>
         </div>
