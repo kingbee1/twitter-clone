@@ -1,9 +1,14 @@
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faHouseUser, faHashtag, faBell, faEnvelope, faBookmark, faUser } from '@fortawesome/free-solid-svg-icons';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AodIcon from '@mui/icons-material/Aod';
-import PendingIcon from '@mui/icons-material/Pending';
+import TagOutlinedIcon from '@mui/icons-material/TagOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import PendingOutlinedIcon from '@mui/icons-material/PendingOutlined';
+import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
+import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import './sidebar.css'
 import me from '../../images/me.png'
 
@@ -17,17 +22,16 @@ function Sidebar() {
         <ul className='nav-icons'>
           <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
 
-          <li ><NavLink className='navlink' to="/"><FontAwesomeIcon icon={faHouseUser} className="twii"/>Home</NavLink></li>
-          <li> <a href=""><FontAwesomeIcon icon={faHashtag} className="twii"/> </a> Explore</li>
-          <li ><NavLink className='navlink' to="/notification"><FontAwesomeIcon icon={faBell} className="twii"/>Notification</NavLink></li>
-          <li> <NavLink className='navlink' to="/messages" ><FontAwesomeIcon icon={faEnvelope} className="twii"/> Messages</NavLink></li>
-          <li ><NavLink className='navlink' to="/bookmark"><FontAwesomeIcon icon={faBookmark} className="twii"/>Bookmarks</NavLink></li>
-          <li> <a href=""><AodIcon className="twii"/></a> Lists</li>
-          <li> <a href=""><FontAwesomeIcon icon={faUser} className="twii"/></a> Profile</li>
-          <li> <a href=""><PendingIcon className="twii"/></a> More</li>
+          <li ><NavLink className='navlink' to="/"><HomeOutlinedIcon className="twii"/>Home</NavLink></li>
+          <li ><NavLink className='navlink' to="/explore"><TagOutlinedIcon className="twii"/>Explore</NavLink></li>
+          <li ><NavLink className='navlink' to="/notification"><NotificationsNoneOutlinedIcon className="twii"/>Notification</NavLink></li>
+          <li> <NavLink className='navlink' to="/messages" ><EmailOutlinedIcon className="twii"/> Messages</NavLink></li>
+          <li ><NavLink className='navlink' to="/bookmark"><BookmarkBorderOutlinedIcon className="twii"/>Bookmarks</NavLink></li>
+          <li ><NavLink className='navlink' to="/bookmark"><AodIcon className="twii"/>Lists</NavLink></li>
+          <li> <NavLink className='navlink'><PermIdentityOutlinedIcon className="twii"/>Profile</NavLink></li>
+          <li> <NavLink className='navlink'><PendingOutlinedIcon className="twii"/>More</NavLink></li>
         </ul>
       </div>
-      {/* vibrates when i hover. fix later */}
 
       <div className="tweet-btn">
         <a href="#">Tweet</a>

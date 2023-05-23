@@ -15,6 +15,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Bookmark from './pages/Bookmark';
 import Messages from './pages/Messages';
 
+import User from './pages/User';
 
 
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
 {
   path: '/messages',
   element: <Messages />
+},
+{
+  path: '/user',
+  element: <User />
+  
 }
 ]
 

@@ -9,9 +9,11 @@
 .nav-links{
     min-width: 400px;
 }
-.nav-links li a {
-    font-size: 34px;  
-}
+/* .nav-links li a {
+    font-size: 34px; 
+    color: yellow; 
+} */
+
 
 .nav-icons {
     list-style: none;
