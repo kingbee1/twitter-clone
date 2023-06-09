@@ -5,11 +5,8 @@ import david from '../images/david.jpeg'
 import danny from '../images/Danny.jpeg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faImages, faPollH, faRetweet, faChartColumn, faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
-import { faGift, faFaceSmile, faCalendar, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faRetweet, faChartColumn, faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Bookmark = () => {
   return (
@@ -18,9 +15,7 @@ const Bookmark = () => {
         <div className='home'>
           <h2>Bookmarks</h2>
           <h5>@real_kingbee</h5>
-        </div>
-
-        
+        </div>        
 
         {/*----- users tweet ----*/}
         <section className='tweet'>

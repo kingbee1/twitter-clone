@@ -16,6 +16,7 @@ import Bookmark from './pages/Bookmark';
 import Messages from './pages/Messages';
 
 import User from './pages/User';
+import Explore from './pages/Explore';
 
 
 
@@ -34,13 +35,17 @@ const router = createBrowserRouter([
   element: <Bookmark />
 },
 {
+  path: '/explore',
+  element: <Explore />
+},
+
+{
   path: '/messages',
   element: <Messages />
 },
 {
   path: '/user',
   element: <User />
-  
 }
 ]
 
