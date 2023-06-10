@@ -8,10 +8,6 @@ function Rightbar() {
   return (
    <div className="right-container">
     <div className="right-container-box">
-      {/* <div className='search'>
-          <FontAwesomeIcon className='magnify' icon={faMagnifyingGlass} />
-          <input type="search" name="" id="" placeholder='Search Twitter' />
-      </div> */}
 
       <div class="search-container">
         <form action="/" method="GET" class="form">

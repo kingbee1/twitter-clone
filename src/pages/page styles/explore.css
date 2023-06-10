@@ -2,8 +2,9 @@
     padding: ;
 }
 
-.explore-container {
+.explore-search-container {
     display: flex;
+    gap: 3rem;
     margin-top: 5px;
     padding: 0 20px;
 }
@@ -25,7 +26,7 @@
     display: inline-flex;
     box-sizing: border-box;
     width: 490px;
-    padding: 14px;
+    padding: 12px;
     background: #252222;
     color: #71767C;
   }
@@ -47,3 +48,7 @@
     padding-left: auto;
   }
 /* see */
+
+.explore-base h3 {
+    font-size: 900;
+}
