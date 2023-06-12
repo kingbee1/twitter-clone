@@ -199,12 +199,11 @@
 
 @media (max-width: 1024px) {
     .middle-container {
-        width: 350px;
+        width: 600px;
     }
 
     .tweet {
-        width: 300px;
-        font-size: 8px;
+        width: 100%;
     }
 
     .user-tweet-box {
@@ -212,8 +211,8 @@
     }
 
     .user-tweet-box img{
-        height: 280px;
-        width: 230px;
+        height: 480px;
+        width: 430px;
         border-radius: 15px;
         margin-top: 20px;
     }

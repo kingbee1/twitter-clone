@@ -8,14 +8,10 @@
 .mobile-nav-links {
     display: none;
 }
-.nav-links{
-     /* min-width: 400px;
-    text-align: center; */
-}
+
 
 .nav-icons {
-    list-style: none;
-    
+    list-style: none;   
 }
 
 .twii-icon {
@@ -56,7 +52,6 @@
     border-radius: 25px;
     width: 250px;
     background: #1D9BF0;
-
 }
 
 .tweet-btn:hover{
@@ -107,21 +102,18 @@
 /* small laptops */
 
 @media (max-width: 1024px) {
-    /* .left-container {
-        max-width: 10px;
-        height: 20px;
-    } */
+
     .mobile-nav-links {
         display: block;
     }
     .twii-icon {
         font-size: 22px;
-        margin-left: 18px;
         margin-bottom: 10px;
     }
 
     .mobile-nav-icons {
-        text-align: center;
+        font-size: 72px;
+        list-style: none;
     }
 
     .nav-links{
