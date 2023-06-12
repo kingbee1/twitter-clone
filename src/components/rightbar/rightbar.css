@@ -188,3 +188,13 @@
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
+
+@media (max-width: 1024px) {
+    .right-container-box{
+        position: sticky;
+        height: 90px;
+        padding: 30px 0;
+        top: 0px;
+        min-width: 200px;
+    }
+}

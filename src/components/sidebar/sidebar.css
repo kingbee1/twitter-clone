@@ -9,11 +9,6 @@
 .nav-links{
     min-width: 400px;
 }
-/* .nav-links li a {
-    font-size: 34px; 
-    color: yellow; 
-} */
-
 
 .nav-icons {
     list-style: none;
@@ -22,7 +17,7 @@
 
 .twii-icon {
     font-size: 28px;
-    padding-left: 10px;
+    padding-left: 50px;
     margin-bottom: 10px;
 }
 
@@ -104,4 +99,42 @@
 
 .user-name {
     color: #71767C;
+}
+
+/* small laptops */
+
+@media (max-width: 1024px) {
+    .left-container {
+        min-width: 150px;
+        height: 20px;
+    }
+
+    .nav-links{
+        min-width: 200px;
+    }
+
+
+    .nav-icons {
+        list-style: none;
+        margin-right: 0px;
+    }
+
+    .nav-icons li{
+        font-weight: 900;
+        padding: 4px 10px;
+    }
+
+    .nav-links li .navlink {
+        font-size: 16px;
+    }
+
+    .tweet-btn{
+
+        padding: 10px 15px;
+        margin: 25px 20px 50px 0;
+        border-radius: 25px;
+        width: 150px;
+        background: #1D9BF0;
+    
+    }
 }
