@@ -33,6 +33,21 @@ function Sidebar() {
         </ul>
       </div>
 
+      <div className="mobile-nav-links">
+        <ul className='mobile-nav-icons'>
+          <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
+
+          <li ><NavLink className='navlink' to="/"><HomeOutlinedIcon className="twii"/></NavLink></li>
+          <li ><NavLink className='navlink' to="/explore"><TagOutlinedIcon className="twii"/></NavLink></li>
+          <li ><NavLink className='navlink' to="/notification"><NotificationsNoneOutlinedIcon className="twii"/></NavLink></li>
+          <li> <NavLink className='navlink' to="/messages" ><EmailOutlinedIcon className="twii"/></NavLink></li>
+          <li ><NavLink className='navlink' to="/bookmark"><BookmarkBorderOutlinedIcon className="twii"/></NavLink></li>
+          <li ><NavLink className='navlink' to="/bookmark"><AodIcon className="twii"/></NavLink></li>
+          <li> <NavLink className='navlink'><PermIdentityOutlinedIcon className="twii"/></NavLink></li>
+          <li> <NavLink className='navlink'><PendingOutlinedIcon className="twii"/></NavLink></li>
+        </ul>
+      </div>
+
       <div className="tweet-btn">
         <a href="#">Tweet</a>
       </div>

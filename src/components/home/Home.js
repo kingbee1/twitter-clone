@@ -30,7 +30,6 @@ function Home() {
 
             <div className='tweet-form'>
               <textarea class="input" placeholder="What's happening?" />
-
             </div>
 
           </div>
