@@ -9,6 +9,8 @@ import PendingOutlinedIcon from '@mui/icons-material/PendingOutlined';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import SearchIcon from '@mui/icons-material/Search';
+import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 import './sidebar.css'
 import me from '../../images/me.png'
 
@@ -35,16 +37,15 @@ function Sidebar() {
 
       <div className="mobile-nav-links">
         <ul className='mobile-nav-icons'>
-          <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
-
+          <li><FontAwesomeIcon icon={faTwitter} className="twii" /> </li>
           <li ><NavLink className='navlink' to="/"><HomeOutlinedIcon className="twii"/></NavLink></li>
-          <li ><NavLink className='navlink' to="/explore"><TagOutlinedIcon className="twii"/></NavLink></li>
+          <li ><NavLink className='navlink' to="/explore"><SearchIcon className="twii"/></NavLink></li>
           <li ><NavLink className='navlink' to="/notification"><NotificationsNoneOutlinedIcon className="twii"/></NavLink></li>
           <li> <NavLink className='navlink' to="/messages" ><EmailOutlinedIcon className="twii"/></NavLink></li>
-          <li ><NavLink className='navlink' to="/bookmark"><BookmarkBorderOutlinedIcon className="twii"/></NavLink></li>
-          <li ><NavLink className='navlink' to="/bookmark"><AodIcon className="twii"/></NavLink></li>
           <li> <NavLink className='navlink'><PermIdentityOutlinedIcon className="twii"/></NavLink></li>
           <li> <NavLink className='navlink'><PendingOutlinedIcon className="twii"/></NavLink></li>
+          <li> <NavLink className='navlink'><HistoryEduIcon className="twii"/></NavLink></li>
+          <img src={me} alt="profile" />
         </ul>
       </div>
 

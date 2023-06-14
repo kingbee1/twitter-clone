@@ -103,6 +103,14 @@
 
 @media (max-width: 1024px) {
 
+    .left-container {
+        position: sticky;
+        height: 50px;
+        padding: 0;
+        top: 0px;
+        width: 77px;
+    }
+
     .mobile-nav-links {
         display: block;
     }
@@ -112,15 +120,41 @@
     }
 
     .mobile-nav-icons {
-        font-size: 72px;
+        /* font-size: 72px; */
         list-style: none;
+        text-align: center;
     }
 
+    .mobile-nav-icons li {
+        margin-bottom: 2rem;
+    }
+
+
     .nav-links{
+        display: none;
+    }
+
+    .nav-links ul a li {
+        display: none;
+    }
+
+    .profile-link {
         display: none;
     }
 
     .tweet-btn{
         display: none;
     }
+
+    .mobile-nav-icons img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .profile-sec{
+        display: none;
+    }
+
 }
