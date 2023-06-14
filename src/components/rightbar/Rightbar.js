@@ -6,7 +6,7 @@ import search from '../../images/search.png'
 
 function Rightbar() {
   return (
-   <div className="right-container">
+ 
     <div className="right-container-box">
 
       <div class="search-container">
@@ -113,7 +113,7 @@ function Rightbar() {
 
     </div>
     
-   </div>
+
   )
 }
 
