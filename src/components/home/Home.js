@@ -54,21 +54,136 @@ function Home() {
         <p>Show 19 Tweets</p>
       </div>
         {/*----- users tweet ----*/}
-      <section className='tweet'>
-        <div className='user-profile'>
-          <img src={cnn} alt="user-profile" />
-          <div className='line'></div>
+      
+        <section className='tweet-container'>
+        <div className="tweet">
+
+          <div className='user-profile'>
+            <img src={cnn} alt="user-profile" />
+            <div className='line'></div>
+          </div>
+          
+          <div className='user-tweet-box'>
+            <div className='user-tweet'>
+              <h4>CNN Official News</h4>
+              <h6>@cnn_funky_news</h6>
+            </div>
+            <p>see for TEST is related to kingbee and that people should help him find Lorem ipsum, 
+              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+            </p>
+            <img src={david} alt="david" />
+            <div className="engage">
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faComment} /> 
+              <p>419</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faRetweet} /> 
+              <p>69k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faHeart} />
+              <p>43k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faChartColumn}/>
+              <p>419</p>
+              </div>
+              
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faArrowUpFromBracket} />
+              <p>4519</p>
+              </div>
+            </div>
+
+
+          </div>
         </div>
-        
+
+        <div className="second-user-test">
+          <img src={cnn} alt="user-profile" />
+          <p>Show this thread</p>
+        </div>
+      </section>
+      {/* sees  */}
+
+      <section className='tweet-container'>
+        <div className="tweet">
+
+          <div className='user-profile'>
+            <img src={cnn} alt="user-profile" />
+            <div className='line'></div>
+          </div>
+          
+          <div className='user-tweet-box'>
+            <div className='user-tweet'>
+              <h4>CNN Official News</h4>
+              <h6>@cnn_funky_news</h6>
+            </div>
+            <p>see for TEST is related to kingbee and that people should help him find Lorem ipsum, 
+              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+            </p>
+            <img src={david} alt="david" />
+            <div className="engage">
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faComment} /> 
+              <p>419</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faRetweet} /> 
+              <p>69k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faHeart} />
+              <p>43k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faChartColumn}/>
+              <p>419</p>
+              </div>
+              
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faArrowUpFromBracket} />
+              <p>4519</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div className="second-user-test">
+          <img src={cnn} alt="user-profile" />
+          <p>Show this thread</p>
+        </div>
+      </section>
+
+
+      {/* ends */}
+
+
+      <section className="tweet-2">
+        <div className='user-profile'>
+          <img src={danny} alt="user-profile" />
+        </div>
+
         <div className='user-tweet-box'>
           <div className='user-tweet'>
-            <h4>CNN Official News</h4>
-            <h6>@cnn_funky_news</h6>
+            <h4>Danny Thompson</h4>
+            <h6>@dannythompson</h6>
+            <h6>. 5h</h6>
           </div>
           <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
             dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
           </p>
-          <img src={david} alt="david" />
           <div className="engage">
 
             <div className='engaged'>
@@ -97,11 +212,64 @@ function Home() {
             </div>
           </div>
 
-          <div className="second-user">
-            <img src={cnn} alt="user-profile" />
-            <p>Show this thread</p>
+        </div>
+      </section>
+        
+      
+      <section className='tweet-container'>
+        <div className="tweet">
+
+          <div className='user-profile'>
+            <img src={davido} alt="user-profile" />
+            <div className='line'></div>
+          </div>
+          
+          <div className='user-tweet-box'>
+            <div className='user-tweet'>
+              <h4>CNN Official News</h4>
+              <h6>@davido</h6>
+            </div>
+            <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
+              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+            </p>
+            <img src={david} alt="david" />
+
+            <div className="engage">
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faComment} /> 
+              <p>419</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faRetweet} /> 
+              <p>69k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faHeart} />
+              <p>43k</p>
+              </div>
+
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faChartColumn}/>
+              <p>419</p>
+              </div>
+              
+              <div className='engaged'>
+              <FontAwesomeIcon icon={faArrowUpFromBracket} />
+              <p>4519</p>
+              </div>
+            </div>
+
+
           </div>
 
+
+        </div>
+        <div className="second-user-test">
+          <img src={davido} alt="user-profile" />
+          <p>Show this thread</p>
         </div>
 
       </section>
@@ -151,150 +319,50 @@ function Home() {
         </div>
       </section>
 
+      <section className="tweet-2">
+        <div className='user-profile'>
+          <img src={danny} alt="user-profile" />
+        </div>
 
-        
-        <section className='tweet'>
-          <div className='user-profile'>
-            <img src={davido} alt="user-profile" />
-            <div className='line'></div>
+        <div className='user-tweet-box'>
+          <div className='user-tweet'>
+            <h4>Danny Thompson</h4>
+            <h6>@dannythompson</h6>
+            <h6>. 5h</h6>
           </div>
-          
-          <div className='user-tweet-box'>
-            <div className='user-tweet'>
-              <h4>CNN Official News</h4>
-              <h6>@davido</h6>
-            </div>
-            <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
-            </p>
-            <img src={david} alt="david" />
+          <p>You absolutely got this, don't let anyone else tell you otherwise. Lorem ipsum, 
+            dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+          </p>
+          <div className="engage">
 
-            <div className="engage">
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faComment} /> 
-              <p>419</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faRetweet} /> 
-              <p>69k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faHeart} />
-              <p>43k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faChartColumn}/>
-              <p>419</p>
-              </div>
-              
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faArrowUpFromBracket} />
-              <p>4519</p>
-              </div>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faComment} /> 
+            <p>419</p>
             </div>
 
-            <div className="second-user">
-              <img src={me} alt="user-profile" />
-              <p>Show this thread</p>
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faRetweet} /> 
+            <p>69k</p>
             </div>
 
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faHeart} />
+            <p>43k</p>
+            </div>
+
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faChartColumn}/>
+            <p>419</p>
+            </div>
+            
+            <div className='engaged'>
+            <FontAwesomeIcon icon={faArrowUpFromBracket} />
+            <p>4519</p>
+            </div>
           </div>
 
-        </section>
-
-        <section className="tweet-2">
-          <div className='user-profile'>
-            <img src={danny} alt="user-profile" />
-          </div>
-
-          <div className='user-tweet-box'>
-            <div className='user-tweet'>
-              <h4>Danny Thompson</h4>
-              <h6>@dannythompson</h6>
-              <h6>. 5h</h6>
-            </div>
-            <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
-            </p>
-            <div className="engage">
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faComment} /> 
-              <p>419</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faRetweet} /> 
-              <p>69k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faHeart} />
-              <p>43k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faChartColumn}/>
-              <p>419</p>
-              </div>
-              
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faArrowUpFromBracket} />
-              <p>4519</p>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <section className="tweet-2">
-          <div className='user-profile'>
-            <img src={danny} alt="user-profile" />
-          </div>
-
-          <div className='user-tweet-box'>
-            <div className='user-tweet'>
-              <h4>Danny Thompson</h4>
-              <h6>@dannythompson</h6>
-              <h6>. 5h</h6>
-            </div>
-            <p>You absolutely got this, don't let anyone else tell you otherwise. Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
-            </p>
-            <div className="engage">
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faComment} /> 
-              <p>419</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faRetweet} /> 
-              <p>69k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faHeart} />
-              <p>43k</p>
-              </div>
-
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faChartColumn}/>
-              <p>419</p>
-              </div>
-              
-              <div className='engaged'>
-              <FontAwesomeIcon icon={faArrowUpFromBracket} />
-              <p>4519</p>
-              </div>
-            </div>
-
-          </div>
-        </section>
+        </div>
+      </section>
 
                 
       

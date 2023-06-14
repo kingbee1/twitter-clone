@@ -93,11 +93,13 @@
     border: none;
     cursor: pointer;
 }
-
+.tweet-container {
+    border-bottom: 1px solid #2F3336;
+}
 .tweet{
     display: flex;
     margin-top: 20px;
-    border-bottom: 1px solid #2F3336;
+    /* border-bottom: 1px solid #2F3336; */
 }
 
 .user-profile img{
@@ -109,7 +111,7 @@
 
 .line{
     background: #303336;
-    height: 85%;
+    height: 89%;
     width: 2px;
     margin: 0px 40px;
  }
@@ -129,6 +131,8 @@
     align-self: center;
     font-size: 14px;
 }
+
+
 
 .user-tweet-box img{
     height: 450px;
@@ -176,7 +180,21 @@
     width: 100%;
 }
 
-.second-user p{
+.second-user-test {
+    display: flex;
+    gap: 1rem;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.second-user-test img{
+    border-radius: 50%;
+    width: 35px;
+	height: 35px;
+    margin: 0px 30px 10px 25px;
+}
+
+.second-user-test p{
     display: flex;
     align-items: center;
     color: #1A8DDB;
@@ -199,7 +217,19 @@
 
 @media (max-width: 1024px) {
     .middle-container {
-        width: 413px;
+        width: 638px;
+    }
+
+    .form-up img {
+        border-radius: 50%;
+        width: 42px;
+        height: 43px;
+        margin: 8px;
+        margin-right: 11px;
+    }
+
+    .tweet-form textarea {
+        margin: 8px 0;
     }
 
     .tweet {
@@ -207,7 +237,7 @@
     }
 
     .user-tweet-box {
-        width: 300px;
+        width: 100%;
     }
 
     .user-tweet-box img{
@@ -215,6 +245,12 @@
         width: 430px;
         border-radius: 15px;
         margin-top: 20px;
+    }
+    .user-profile img {
+        border-radius: 50%;
+        width: 52px;
+        height: 52px;
+        margin: 0px 22px 9px 7px;
     }
     
 }

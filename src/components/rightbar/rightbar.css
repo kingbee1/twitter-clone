@@ -202,10 +202,35 @@
         display: none;
     }
     .trend-box {
-        height: 90vh;
-        width: 284px;
+        height: 100vh;
+        width: 280px;
         margin-left: 25px;
         margin-top: 1px;
         padding-top: 1px;
+    }
+
+    .trend-tile {
+        margin-bottom: 1px;
+    }
+
+    .suggest-box {
+        width: 280px;
+    }
+
+    .suggest-profile {
+        padding: 10px 8px;
+    }
+
+    .suggest-box button {
+        border-radius: 20px;
+        height: 29px;
+        padding: 6px 12px;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        background: white;
+        color: #17181C;
+        font-weight: 700;
+        font-size: 12px;
     }
 }

@@ -37,7 +37,7 @@ function Sidebar() {
 
       <div className="mobile-nav-links">
         <ul className='mobile-nav-icons'>
-          <li><FontAwesomeIcon icon={faTwitter} className="twii" /> </li>
+          <li> <NavLink to="/"><FontAwesomeIcon icon={faTwitter} className="twii" /></NavLink> </li>
           <li ><NavLink className='navlink' to="/"><HomeOutlinedIcon className="twii"/></NavLink></li>
           <li ><NavLink className='navlink' to="/explore"><SearchIcon className="twii"/></NavLink></li>
           <li ><NavLink className='navlink' to="/notification"><NotificationsNoneOutlinedIcon className="twii"/></NavLink></li>
