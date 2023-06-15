@@ -38,3 +38,13 @@
     outline: none;
     border-radius: 26px;
 }
+
+@media (max-width: 900px) {
+    .right-cover {
+        display: none;
+    }
+    
+    .right-container-message {
+        display: none;
+    }
+}

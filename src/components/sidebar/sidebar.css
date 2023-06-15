@@ -108,7 +108,7 @@
         height: 50px;
         padding: 0;
         top: 0px;
-        width: 77px;
+        width: 120px;
     }
 
     .mobile-nav-links {
@@ -120,15 +120,18 @@
     }
 
     .mobile-nav-icons {
-        /* font-size: 72px; */
         list-style: none;
         text-align: center;
     }
 
     .mobile-nav-icons li {
         margin-bottom: 2rem;
+        font-size: 72px;
     }
 
+    .mobile-nav-icons a {
+        width: 90px;
+    }
 
     .nav-links{
         display: none;

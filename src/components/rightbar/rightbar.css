@@ -202,7 +202,7 @@
         display: none;
     }
     .trend-box {
-        height: 100vh;
+        height: 66vh;
         width: 280px;
         margin-left: 25px;
         margin-top: 1px;
@@ -232,5 +232,11 @@
         color: #17181C;
         font-weight: 700;
         font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .right-container-box{
+        display: none;
     }
 }

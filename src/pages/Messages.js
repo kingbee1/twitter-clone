@@ -50,7 +50,7 @@ const Messages = () => {
           </div>
           <div className="dm">
             <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
 
@@ -90,7 +90,7 @@ const Messages = () => {
           </div>
           <div className="dm">
             <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
 
@@ -110,7 +110,7 @@ const Messages = () => {
           </div>
           <div className="dm">
             <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
 
@@ -129,8 +129,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Wilson Scott <span>@scotty123455 . April 24</span></p>
+            <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
 
