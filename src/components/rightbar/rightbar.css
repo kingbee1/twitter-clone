@@ -57,7 +57,7 @@
 }
 
 .trend-box {
-    height: 90vh;
+    height: 84vh;
     width: 350px;
     background: #17181C;
     border-radius: 15px;
@@ -235,7 +235,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
     .right-container-box{
         display: none;
     }

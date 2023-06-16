@@ -39,7 +39,7 @@
     border-radius: 26px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
     .right-cover {
         display: none;
     }

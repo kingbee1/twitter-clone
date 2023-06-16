@@ -68,8 +68,8 @@ function Home() {
               <h4>CNN Official News</h4>
               <h6>@cnn_funky_news</h6>
             </div>
-            <p>see for TEST is related to kingbee and that people should help him find Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+            <p>see for TEST is related to kingbee and that people should help him find ipsum, 
+              dolor sit amet consectetur  elit. Officia iure dolore possimus!
             </p>
             <img src={david} alt="david" />
             <div className="engage">
@@ -125,7 +125,7 @@ function Home() {
               <h6>@cnn_funky_news</h6>
             </div>
             <p>see for TEST is related to kingbee and that people should help him find Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+              dolor sit amet consectetur elit. Officia iure dolore possimus!
             </p>
             <img src={david} alt="david" />
             <div className="engage">

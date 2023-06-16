@@ -228,6 +228,10 @@
         margin-right: 11px;
     }
 
+    .form-down {
+        margin-left: 9px;
+    }
+
     .tweet-form textarea {
         margin: 8px 0;
     }
@@ -255,3 +259,52 @@
     
 }
 
+/* @media (max-width: 1000px) {
+    
+} */
+
+@media (max-width: 480px) {
+    .home h2 {
+        display: none;
+    }
+
+    .tweet-post {
+        display: none;
+    }
+
+    .middle-show {
+        display: none;
+    }
+
+   
+
+    .user-profile img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .line {
+        margin: 0px 31px;
+    }
+
+    .user-tweet h4 {
+        font-size: 15px;
+    }
+
+    .user-tweet h6 {
+        font-size: 14px;
+    }
+
+    .user-tweet-box img {
+        height: 367px;
+        width: 295px;
+    }
+
+    .engage {
+        gap: 0.7rem;
+    }
+
+    .engaged  {
+        font-size: 12px;
+    }
+}
