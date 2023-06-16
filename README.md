@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Twitter Clone
 
 I built twitter web application clone using React. You can lurk around for some more of my projects.
 
