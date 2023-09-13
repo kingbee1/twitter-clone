@@ -15,15 +15,17 @@ import PeopleIcon from '@mui/icons-material/People';
 import ClearIcon from '@mui/icons-material/Clear';
 import './sidebar.css'
 import me from '../../images/me.png'
+import x from '../../images/x.png'
 
 
 function Sidebar() {
   return (
     
     <div className='left-container'>
-      
+
       <ul className='side__nav-links'>
-      <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a>
+        <img src={x} alt="x-logo" className='x-icon'/>
+      {/* <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a> */}
         <li><HomeOutlinedIcon /><NavLink to={"/"}>Home</NavLink> </li>
         <li><TagOutlinedIcon /><NavLink to={"/explore"}>Explore</NavLink></li>
         <li><NotificationsNoneOutlinedIcon /><NavLink to={"/notification"}>Notification</NavLink></li>
