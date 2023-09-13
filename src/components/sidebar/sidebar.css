@@ -1,3 +1,9 @@
+a:active {
+    font-size: 900;
+  }
+ul {
+    list-style: none;
+}
 .left-container {
     height: 100%;
     padding: 30px 0;
@@ -5,10 +11,39 @@
     position: fixed;
     left: 9%;
 }
+/* space for test nav link */
+
+.side__nav-links {
+    padding: 0;
+    font-size: 20px;
+
+}
+
+.side__nav-links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.side__nav-links li svg {
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+
+.side__nav-links li a {
+text-decoration: none;
+}
+
+
+
+
+
+
+
+/* space */
 .mobile-nav-links {
     display: none;
 }
-
 
 .nav-icons {
     list-style: none;   
@@ -22,7 +57,7 @@
 
 .nav-icons li{
     font-size:18px;
-    font-weight: 900;
+    font-weight: 400;
     padding: 4px 8px;
     cursor: pointer;
     margin-bottom: 10px;
@@ -36,12 +71,12 @@
 }
 
 .nav-links li .navlink {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .twii {
     font-size: 24px;
-    margin-right: 18px;
+    /* margin-right: 18px; */
 }
 
 .tweet-btn{
