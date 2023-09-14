@@ -78,6 +78,7 @@
     gap: 1rem;
     margin-left: 59px;
     align-items: center;
+    cursor: pointer;
 }
 
 .form-down .btn {
@@ -108,7 +109,6 @@
 	height: 65px;
     margin: 0px 15px 10px 10px;
 }
-
 
 .user-tweet {
     display: flex;

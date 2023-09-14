@@ -4,9 +4,12 @@ import me from '../../images/me.png'
 import working from '../../images/working.png'
 import davido from '../../images/david.jpeg'
 import danny from '../../images/Danny.jpeg'
-import cnn from '../../images/cnn.png'
+import teslim from '../../images/teslim.jpeg'
 import obong from '../../images/obong.jpeg'
 import bisi from '../../images/bisi ai.png'
+import utd from '../../images/utdplug.jpeg'
+import dog from '../../images/dog.jpg'
+import sancho from '../../images/sancho.jpeg'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -31,7 +34,7 @@ function Home() {
             <img src={me} alt="profile-img" />
 
             <div className='tweet-form'>
-              <textarea class="input" placeholder="What's happening?" />
+              <textarea class="input" placeholder="What's happening?!" />
             </div>
 
           </div>
@@ -61,7 +64,7 @@ function Home() {
         <div className="tweet">
 
           <div className='user-profile'>
-            <img src={cnn} alt="user-profile" />
+            <img src={utd} alt="user-profile" />
           </div>
           
           <div className='user-tweet-box'>
@@ -72,7 +75,7 @@ function Home() {
             <p>With Jadon Sancho & Antony both 
               not training with the first-team, who starts our next few games at right-wing? 🤔👇
             </p>
-            <img src={working} alt="working" />
+            <img src={sancho} alt="working" />
             <div className="engage">
 
               <div className='engaged'>
@@ -113,7 +116,7 @@ function Home() {
         <div className="tweet">
 
           <div className='user-profile'>
-            <img src={cnn} alt="user-profile" />
+            <img src={dog} alt="user-profile" />
           </div>
           
           <div className='user-tweet-box'>
@@ -222,11 +225,10 @@ function Home() {
           
           <div className='user-tweet-box'>
             <div className='user-tweet'>
-              <h4>CNN Official News</h4>
-              <h6>@davido</h6>
+              <h4>Barley</h4>
+              <h6>@bisc</h6>
             </div>
-            <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
-              dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+            <p>Take a break from being the bigger person sometimes and choose violence.
             </p>
             <img src={working} alt="working" />
 
@@ -269,17 +271,18 @@ function Home() {
 
       <section className="tweet-2">
         <div className='user-profile'>
-          <img src={danny} alt="user-profile" />
+          <img src={teslim} alt="user-profile" />
         </div>
 
         <div className='user-tweet-box'>
           <div className='user-tweet'>
-            <h4>Danny Thompson</h4>
-            <h6>@dannythompson</h6>
+            <h4>Teslim.</h4>
+            <h6>@VectorThaViper</h6>
             <h6>. 5h</h6>
           </div>
-          <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
-            dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+          <p>I’ve been holding back a lot. If you think about it, i am the perfect example of the one who 
+            they thought would be “classist” because I rap in English and i should “ leave all these local affiliations” 
+            but una no mind when jay-z dey rep bed Stuyvesant or Brooklyn. 
           </p>
           <div className="engage">
 

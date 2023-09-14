@@ -39,6 +39,10 @@
     border-radius: 26px;
 }
 
+.right-content button:hover {
+    background: #5194cf;
+}
+
 @media (max-width: 992px) {
     .right-cover {
         display: none;
