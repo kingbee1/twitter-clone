@@ -81,8 +81,8 @@
 }
 
 .form-down .btn {
-    background: #1D9BF0;
-    color: #ccc;
+    color: #FDFEFF;
+    background: #3A95E6;
     font-weight: bolder;
     border-radius: 15px;
     padding: 8px 18px;
@@ -106,15 +106,9 @@
     border-radius: 50%;
     width: 65px;
 	height: 65px;
-    margin: 0px 43px 10px 10px;
+    margin: 0px 15px 10px 10px;
 }
 
-/* .line{
-    background: #303336;
-    height: 89%;
-    width: 2px;
-    margin: 0px 40px;
- } */
 
 .user-tweet {
     display: flex;
@@ -132,8 +126,6 @@
     font-size: 14px;
 }
 
-
-
 .user-tweet-box img{
     height: 450px;
     width: 430px;
@@ -146,6 +138,7 @@
     gap: 2rem;
     width: 100%;
     margin-top: 5px;
+    margin-bottom: 1rem;
 }
 
 .engaged:hover{

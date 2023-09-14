@@ -179,6 +179,10 @@ text-decoration: none;
         display: none;
     }
 
+    .side__nav-links {
+        display: none;
+    }
+
     .nav-links ul a li {
         display: none;
     }

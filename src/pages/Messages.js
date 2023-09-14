@@ -16,7 +16,7 @@ const Messages = () => {
           <div className="message-heading">
             <h3>Messages</h3>
             <div message-heading-icons>
-              <SettingsIcon fontSize='small' marginRight='4px' />
+              <SettingsIcon fontSize='small' />
               <MailLockOutlined fontSize='small' />
             </div>
           </div>

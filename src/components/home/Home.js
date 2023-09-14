@@ -1,10 +1,12 @@
 import React from 'react'
 import './home.css'
 import me from '../../images/me.png'
-import david from '../../images/davido.jpeg'
+import working from '../../images/working.png'
 import davido from '../../images/david.jpeg'
 import danny from '../../images/Danny.jpeg'
 import cnn from '../../images/cnn.png'
+import obong from '../../images/obong.jpeg'
+import bisi from '../../images/bisi ai.png'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -60,18 +62,17 @@ function Home() {
 
           <div className='user-profile'>
             <img src={cnn} alt="user-profile" />
-            <div className='line'></div>
           </div>
           
           <div className='user-tweet-box'>
             <div className='user-tweet'>
-              <h4>CNN Official News</h4>
-              <h6>@cnn_funky_news</h6>
+              <h4>mufcmpb</h4>
+              <h6>@mufcmpb</h6>
             </div>
-            <p>see for TEST is related to kingbee and that people should help him find ipsum, 
-              dolor sit amet consectetur  elit. Officia iure dolore possimus!
+            <p>With Jadon Sancho & Antony both 
+              not training with the first-team, who starts our next few games at right-wing? 🤔👇
             </p>
-            <img src={david} alt="david" />
+            <img src={working} alt="working" />
             <div className="engage">
 
               <div className='engaged'>
@@ -104,10 +105,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="second-user-test">
-          <img src={cnn} alt="user-profile" />
-          <p>Show this thread</p>
-        </div>
+       
       </section>
       {/* sees  */}
 
@@ -116,7 +114,6 @@ function Home() {
 
           <div className='user-profile'>
             <img src={cnn} alt="user-profile" />
-            <div className='line'></div>
           </div>
           
           <div className='user-tweet-box'>
@@ -124,10 +121,10 @@ function Home() {
               <h4>CNN Official News</h4>
               <h6>@cnn_funky_news</h6>
             </div>
-            <p>see for TEST is related to kingbee and that people should help him find Lorem ipsum, 
+            <p>see for TEST is related to me and that people should help him find Lorem ipsum, 
               dolor sit amet consectetur elit. Officia iure dolore possimus!
             </p>
-            <img src={david} alt="david" />
+            <img src={bisi} alt="david" />
             <div className="engage">
 
               <div className='engaged'>
@@ -160,10 +157,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="second-user-test">
-          <img src={cnn} alt="user-profile" />
-          <p>Show this thread</p>
-        </div>
+       
       </section>
 
 
@@ -172,17 +166,19 @@ function Home() {
 
       <section className="tweet-2">
         <div className='user-profile'>
-          <img src={danny} alt="user-profile" />
+          <img src={obong} alt="user-profile" />
         </div>
 
         <div className='user-tweet-box'>
           <div className='user-tweet'>
-            <h4>Danny Thompson</h4>
-            <h6>@dannythompson</h6>
+            <h4>Obong Roviel</h4>
+            <h6>@R0VIEL</h6>
             <h6>. 5h</h6>
           </div>
-          <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
-            dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
+          <p>Lyta called out Olamide, they said he was ungrateful
+              YBNL princess called out Olamide, they said she was ungrateful 
+              Devolee has been ranting since, they said he’s ungrateful 
+              I hate selective outrage, do it all or don’t do at all
           </p>
           <div className="engage">
 
@@ -220,8 +216,8 @@ function Home() {
         <div className="tweet">
 
           <div className='user-profile'>
-            <img src={davido} alt="user-profile" />
-            <div className='line'></div>
+            <img src={working} alt="user-profile" />
+           
           </div>
           
           <div className='user-tweet-box'>
@@ -232,7 +228,7 @@ function Home() {
             <p>Davido claiming he is related to kingbee and that people should help him find Lorem ipsum, 
               dolor sit amet consectetur adipisicing elit. Officia iure dolore possimus!
             </p>
-            <img src={david} alt="david" />
+            <img src={working} alt="working" />
 
             <div className="engage">
 
@@ -267,10 +263,7 @@ function Home() {
 
 
         </div>
-        <div className="second-user-test">
-          <img src={davido} alt="user-profile" />
-          <p>Show this thread</p>
-        </div>
+     
 
       </section>
 

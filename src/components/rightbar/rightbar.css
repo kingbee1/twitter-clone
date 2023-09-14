@@ -168,6 +168,10 @@
     padding: 10px 15px;
 }
 
+.suggest-profile button:hover{
+    background: rgb(238, 232, 232);
+}
+
 .suggest-profile img {
     border-radius: 50%;
     width: 45px;

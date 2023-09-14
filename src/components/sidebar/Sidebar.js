@@ -27,7 +27,7 @@ function Sidebar() {
         <a href="/"><img src={x} alt="x-logo" className='x-icon' /></a>
       {/* <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a> */}
         <li><HomeOutlinedIcon /><NavLink to={"/"}>Home</NavLink> </li>
-        <li><TagOutlinedIcon /><NavLink to={"/explore"}>Explore</NavLink></li>
+        <li><SearchIcon /><NavLink to={"/explore"}>Explore</NavLink></li>
         <li><NotificationsNoneOutlinedIcon /><NavLink to={"/notification"}>Notification</NavLink></li>
         <li><EmailOutlinedIcon /><NavLink to={"/messages"}>Messages</NavLink></li>  
         <li><AodIcon /><NavLink>Lists</NavLink></li>
@@ -40,7 +40,7 @@ function Sidebar() {
 
       <div className="mobile-nav-links">
         <ul className='mobile-nav-icons'>
-          <li> <NavLink to="/"><FontAwesomeIcon icon={faTwitter} className="twii" /></NavLink> </li>
+          <li> <NavLink to="/"><img src={x} alt="x-logo" className='x-icon' /></NavLink> </li>
           <li ><NavLink className='navlink' to="/"><HomeOutlinedIcon className="twii"/></NavLink></li>
           <li ><NavLink className='navlink' to="/explore"><SearchIcon className="twii"/></NavLink></li>
           <li ><NavLink className='navlink' to="/notification"><NotificationsNoneOutlinedIcon className="twii"/></NavLink></li>
