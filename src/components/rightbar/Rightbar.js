@@ -9,18 +9,15 @@ function Rightbar() {
  
     <div className="right-container-box">
 
-      {/* <div class="search-container">
-        <form action="/" class="form">
-          <input type="search" placeholder="Search" class="search-field" />
-          <button type="submit" class="search-button">
-            <img src={search} alt="search" />
-          </button>
-        </form>
-      </div> */}
-
       <div class="search-bar">
         <button><SearchIcon className='search' /></button>
         <input type="text" placeholder="Search" />
+      </div>
+
+      <div className='right-premium'>
+        <h2>Subscribe to Premium</h2>
+        <h4 className=''>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</h4>
+        <button className='sub-btn'>Subscribe</button>
       </div>
 
       <div className='trend-box'>
@@ -112,13 +109,10 @@ function Rightbar() {
           <p>Show more</p>
 
         </div>
-      </div>
-
-      
+      </div>   
 
     </div>
     
-
   )
 }
 

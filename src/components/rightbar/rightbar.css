@@ -4,7 +4,7 @@
     padding: 10px 0;
     top: 0px;
 }
-/* right search test */
+
 .search-bar {
     display: flex;
     background-color: #202427;
@@ -45,7 +45,39 @@
 
 
 /* end */
+.right-premium {
+    margin-top: 1.2rem;
+    margin-left: 28px;
+    width: 350px;
+    height: 160px;
+    background: #17181C;
+    border-radius: 15px;
+    padding: 1.1rem;
+}
 
+.right-premium h2 {
+    margin-bottom: 0.6rem;
+}
+
+.right-premium h4 {
+    margin-bottom: 0.6rem;
+}
+
+.sub-btn{
+    text-align: center;
+    font-weight: 900;
+    padding: 12px 22px;
+    border-radius: 25px;
+    background: #3A95E6;
+    color: #FDFEFF;
+    border: none;
+    cursor: pointer;
+}
+
+.sub-btn:hover {   
+    background: #438dce;
+    transition: 1ms;
+}
 
 .trend-box {
     height: 84vh;
@@ -62,6 +94,7 @@
     font-size: 22px;
     font-weight: 700; 
     padding-left: 15px;
+    color: #FDFEFF;
 }
 
 .trend-tile {
@@ -85,6 +118,7 @@
     font-size: 18px;
     font-weight: 900;
     margin: 5px 0;
+    color: #FDFEFF;
 }
 
 .trend-box p {

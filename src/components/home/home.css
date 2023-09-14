@@ -109,12 +109,12 @@
     margin: 0px 43px 10px 10px;
 }
 
-.line{
+/* .line{
     background: #303336;
     height: 89%;
     width: 2px;
     margin: 0px 40px;
- }
+ } */
 
 .user-tweet {
     display: flex;
