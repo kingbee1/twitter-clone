@@ -1,7 +1,7 @@
 import React from 'react'
 import './rightbar.css'
 import me from '../../images/me.png'
-import search from '../../images/search.png'
+import SearchIcon from '@mui/icons-material/Search';
 
 
 function Rightbar() {
@@ -9,13 +9,18 @@ function Rightbar() {
  
     <div className="right-container-box">
 
-      <div class="search-container">
-        <form action="/" method="GET" class="form">
+      {/* <div class="search-container">
+        <form action="/" class="form">
           <input type="search" placeholder="Search" class="search-field" />
           <button type="submit" class="search-button">
             <img src={search} alt="search" />
           </button>
         </form>
+      </div> */}
+
+      <div class="search-bar">
+        <button><SearchIcon className='search' /></button>
+        <input type="text" placeholder="Search" />
       </div>
 
       <div className='trend-box'>

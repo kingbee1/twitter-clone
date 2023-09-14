@@ -24,7 +24,7 @@ function Sidebar() {
     <div className='left-container'>
 
       <ul className='side__nav-links'>
-        <img src={x} alt="x-logo" className='x-icon'/>
+        <a href="/"><img src={x} alt="x-logo" className='x-icon' /></a>
       {/* <a href=""><FontAwesomeIcon icon={faTwitter} className="twii-icon" /> </a> */}
         <li><HomeOutlinedIcon /><NavLink to={"/"}>Home</NavLink> </li>
         <li><TagOutlinedIcon /><NavLink to={"/explore"}>Explore</NavLink></li>
