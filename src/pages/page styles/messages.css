@@ -1,8 +1,8 @@
 .message-container {
     border-left: 1px solid #303336;
     border-right: 1px solid #303336;
-    max-width: 480px;
-    min-width: 380px;
+    max-width: 410px;
+    /* min-width: 380px; */
     height: fit-content;
     padding: 15px;
 }
@@ -92,6 +92,7 @@
   .dm p{
     color: #E7E9EA;
     font-weight: 900;
+    cursor: pointer;
   }
 
   .dm p span{

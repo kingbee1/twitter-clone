@@ -7,6 +7,12 @@ import { ForwardToInboxOutlined, MailLockOutlined, SearchOutlined } from '@mui/i
 import danny from '../images/Danny.jpeg'
 import hshot1 from '../images/alena.jpg'
 import hshot2 from '../images/cottonbro.jpg'
+import hshot3 from '../images/hshot3.png'
+import hshot4 from '../images/hshot4.jpg'
+import dash from '../images/darshan.jpeg'
+import sancho from '../images/sancho.jpeg'
+import obong from '../images/obong.jpeg'
+import teslim from '../images/teslim.jpeg'
 
 const Messages = () => {
   return (
@@ -42,7 +48,7 @@ const Messages = () => {
           </div>
           <div className="dm">
             <p>Alena <span>@alenashre . April 24</span></p>
-            <p>Alena reacted to a Tweet with 😂</p>
+            <p>Alena reacted with😂 :You are so pretty </p>
           </div>
          </div>
 
@@ -58,77 +64,77 @@ const Messages = () => {
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={teslim} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Dayo <span>@Dayo . April 24</span></p>
+            <p>Dayo reacted with 🖕🏼: shut up bitch</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={dash} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Richard <span>@Richard . April 24</span></p>
+            <p>Richard reacted with 🤡</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={obong} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Berry <span>@Berry . April 24</span></p>
+            <p>Berry reacted with ❤️</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={sancho} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Wallace <span>@Wallace . April 24</span></p>
+            <p>Normally, you're not a smart person na. 😂</p>
+          </div>
+         </div>
+
+         <div className="actual-message">
+          <div className="user-profilet">
+            <img src={teslim} alt="avi" />
+          </div>
+          <div className="dm">
+            <p>Sean <span>@Sean . April 24</span></p>
+            <p>Sean reacted with 🤒</p>
+          </div>
+         </div>
+
+         <div className="actual-message">
+          <div className="user-profilet">
+            <img src={hshot2} alt="avi" />
+          </div>
+          <div className="dm">
+            <p>Lucky <span>@Lucky . April 24</span></p>
             <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={obong} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Richard <span>@Richard . April 24</span></p>
+            <p>Richard reacted with 😂</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
-          </div>
-          <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
-          </div>
-         </div>
-
-         <div className="actual-message">
-          <div className="user-profilet">
-            <img src={danny} alt="avi" />
-          </div>
-          <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
-          </div>
-         </div>
-
-         <div className="actual-message">
-          <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={dash} alt="avi" />
           </div>
           <div className="dm">
             <p>Wilson Scott <span>@scotty123455 . April 24</span></p>
@@ -141,28 +147,28 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Scott <span>@Scott . April 24</span></p>
+            <p>Scott reacted with 🫵🏽</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={hshot3} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Jason <span>@Jason . April 24</span></p>
+            <p>Jason reacted with 😂</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={hshot4} alt="avi" />
           </div>
           <div className="dm">
-            <p>Dollypee <span>@Dollypee . April 24</span></p>
-            <p>Dollypee reacted to a Tweet with 😂</p>
+            <p>Kings <span>@Kings . April 24</span></p>
+            <p>Kings reacted with 👍🏽</p>
           </div>
          </div>
 

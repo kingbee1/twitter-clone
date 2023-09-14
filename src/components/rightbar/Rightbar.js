@@ -1,6 +1,8 @@
 import React from 'react'
 import './rightbar.css'
 import me from '../../images/me.png'
+import dash from '../../images/darshan.jpeg'
+import x from '../../images/x.png'
 import SearchIcon from '@mui/icons-material/Search';
 
 
@@ -89,19 +91,19 @@ function Rightbar() {
           </div>
 
           <div className="suggest-profile">
-            <img src={me} alt="me" />
+            <img src={dash} alt="me" />
             <div className='suggest-name'>
-              <h4>Mary</h4>
-              <h4 className='handle'>@real_kingbee</h4>
+              <h4>Darshan</h4>
+              <h4 className='handle'>@darsha4874</h4>
             </div>
             <button>Follow</button>
           </div>
 
           <div className="suggest-profile">
-            <img src={me} alt="me" />
+            <img src={x} alt="me" />
             <div className='suggest-name'>
-              <h4>Kingbee</h4>
-              <h4 className='handle'>@real_kingbee</h4>
+              <h4>Mr X</h4>
+              <h4 className='handle'>@gberule234</h4>
             </div>
             <button>Follow</button>
           </div>
