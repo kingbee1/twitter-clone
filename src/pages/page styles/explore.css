@@ -50,7 +50,9 @@
 /* see */
 
 .explore-base h3 {
-    font-size: 900;
+  padding-left: 1rem;
+  font-size: 900;
+
 }
 
 @media (max-width: 1024px) {

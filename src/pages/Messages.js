@@ -5,6 +5,8 @@ import './page styles/messages.css'
 import SettingsIcon from '@mui/icons-material/Settings';
 import { ForwardToInboxOutlined, MailLockOutlined, SearchOutlined } from '@mui/icons-material';
 import danny from '../images/Danny.jpeg'
+import hshot1 from '../images/alena.jpg'
+import hshot2 from '../images/cottonbro.jpg'
 
 const Messages = () => {
   return (
@@ -35,21 +37,21 @@ const Messages = () => {
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={hshot1} alt="avi" />
 
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Alena <span>@alenashre . April 24</span></p>
+            <p>Alena reacted to a Tweet with 😂</p>
           </div>
          </div>
 
          <div className="actual-message">
           <div className="user-profilet">
-            <img src={danny} alt="avi" />
+            <img src={hshot2} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
             <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
@@ -59,8 +61,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -69,8 +71,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -79,8 +81,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -89,7 +91,7 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
             <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
@@ -99,8 +101,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -109,7 +111,7 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
             <p>You need to have seen how he treated her. Omo, no be small thing. 😂</p>
           </div>
          </div>
@@ -119,8 +121,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -139,8 +141,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -149,8 +151,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 
@@ -159,8 +161,8 @@ const Messages = () => {
             <img src={danny} alt="avi" />
           </div>
           <div className="dm">
-            <p>Pussycat <span>@pussycat . April 24</span></p>
-            <p>Pussycat reacted to a Tweet with 😂</p>
+            <p>Dollypee <span>@Dollypee . April 24</span></p>
+            <p>Dollypee reacted to a Tweet with 😂</p>
           </div>
          </div>
 

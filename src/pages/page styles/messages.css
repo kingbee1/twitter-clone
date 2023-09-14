@@ -1,7 +1,7 @@
 .message-container {
     border-left: 1px solid #303336;
     border-right: 1px solid #303336;
-    max-width: 580px;
+    max-width: 480px;
     min-width: 380px;
     height: fit-content;
     padding: 15px;
@@ -19,7 +19,9 @@
 }
 
 .instant-search {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
   }
 
   .instant-search,
@@ -28,16 +30,19 @@
   }
   
   .instant-search__input-container {
-    display: inline-flex;
+    display: flex;
+  align-items: center;
     box-sizing: border-box;
     width: 100%;
     padding: 6px;
-    background: #252222;
+    background: #000000;
+    border: 1px solid #303336;
     color: #71767C;
   }
 
   .instant-search__input-container:focus-within {
-    background: #ffffff;
+    background: #000000;
+    border: 1px solid #3C9BF0;
   }
   
   .instant-search__input {
@@ -46,11 +51,23 @@
     outline: none;
     width: 100%;
     padding: 0 6px;
+    color: #E7E9EA;
     background: transparent;
+    /* text-align: center; */
   }
+  
 
   instant-search__input::placeholder{
-    padding-left: auto;
+    /* text-align: center;  */
+    position: absolute;
+    top: 0;
+    /* left: 50%;  */
+    transform: translateX(-50%);
+    transition: transform 0.3s ease;
+  }
+
+  .instant-search__input:focus::placeholder {
+    /* transform: translateX(-30%);  */
   }
 
   .message-top {
